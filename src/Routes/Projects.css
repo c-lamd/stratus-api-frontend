@@ -1,0 +1,45 @@
+.addIcon {
+    color:#dfdfdf;
+    font-size: 4.5rem;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    grid-gap: 2rem;
+    margin-block: 2rem;
+    padding: 0 1rem;
+    margin-left: 135px ;
+}
+
+.createCard {
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    width: 300px;
+    border: #dfdfdf;
+    border-radius: 16px;
+    border-style: dashed;
+    border-width: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.createCardText {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #dfdfdf;
+}
+
+.pageContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.title {
+    padding-top: 1.8rem;
+    margin-left: 135px;
+    font-family: 'Montserrat';
+}
