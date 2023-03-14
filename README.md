@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Stratus API Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Stratus API's frontend, built with React.
 
 ## Available Scripts
 
