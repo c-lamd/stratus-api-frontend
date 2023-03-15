@@ -13,6 +13,7 @@ function Projects() {
                     <BsIcons.BsCloudPlus className='addIcon'/>
                     <h3 className='createCardText'>Create New Project</h3>
                 </Link>
+                <Card title="Hello"/>
             </div>
         </div>
     )

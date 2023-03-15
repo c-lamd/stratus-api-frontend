@@ -1,3 +1,18 @@
+.attributesText {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-left: 10px;
+    color: #1D2D4C;
+}
+
+.attributesTextB {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Montserrat";
+    color: #1D2D4C;
+}
+
 .cardBox {
     height: 230px;
     width: 300px;
@@ -5,12 +20,41 @@
     box-shadow: 2px 4px 7px 1px rgba(215, 215, 215, 0.8);
     border-radius: 16px;
     overflow: hidden;
-    display: grid;
+}
+
+.cardLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cardRow {
+    height: 18px;
+    margin-left: 16px;
+    display:flex;
+    flex-direction: row;
 }
 
 .cardTitle {
-    padding: 8px;
-    font-size: 30px;
+    font-size: 24px;
+    font-family: "Montserrat";
+    padding-left: 16px;
+    padding-top: 10px;
+    color: #1D2D4C;
+}
+
+.desc {
+    font-size: 16px;
+    padding-inline: 16px;
+    padding-top: 5px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    color:#1D2D4C;
+}
+
+.descContainer {
+    height: 110px;
 }
 
 .titleContainer {

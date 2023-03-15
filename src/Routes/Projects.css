@@ -38,8 +38,17 @@
     flex-direction: column;
 }
 
+.subtitle {
+    color:#6899FB;
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 700;
+    padding-left: 135px;
+    padding-top: 1rem;
+}
 .title {
     padding-top: 1.8rem;
     margin-left: 135px;
+    color: #1D2D4C;
     font-family: 'Montserrat';
 }
