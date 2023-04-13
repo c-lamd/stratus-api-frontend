@@ -18,13 +18,23 @@
     border-color: transparent;
     border-radius: 8px;
   }
+  .getstartedbuttonEdit {
+    top: 36px;
+    left: 1205px;
+    width: 178px;
+    height: 51px;
+    border-radius: 10px;
+    position: relative;
+    background-color: rgba(29, 45, 76, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .text {
-    top: 62px;
-    left: 1239px;
     color: rgba(255, 255, 255, 1);
     height: auto;
-    position: absolute;
-    font-size: 20px;
+    font-size: 16px;
     align-self: auto;
     font-style: Bold;
     text-align: center;
@@ -35,6 +45,7 @@
     margin-right: 0;
     margin-bottom: 0;
     text-decoration: none;
+    z-index: 1;
   }
   .text002 {
     top: 49px;
@@ -139,9 +150,10 @@
     height: auto;
     position: absolute;
     font-size: 24px;
-    align-self: auto;
+    /* align-self: auto; */
     font-style: Bold;
     text-align: left;
+    word-wrap: break-word;
     font-family: "Montserrat",Helvetica;
     font-weight: 700;
     line-height: normal;

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import * as BsIcons from 'react-icons/bs';
 import styles from './LandingPage.module.css';
 
 
@@ -7,14 +7,22 @@ function LandingPage() {
   return (
     <div>
       <div className={styles['home-page']}>
-        <img
+        {/* <img
           src="../assets/images/Rectangle1.jpg" 
           alt="Getstartedbutton13"
           className={styles['getstartedbutton']}
-        />
-        <span className={styles['text']}>
-          <span>Get Started</span>
-        </span>
+        /> */}
+        {/* <div className={styles['getstartedbuttonEdit']}>
+          <span className={styles['text']}>
+            <span>Get Started</span>
+          </span>
+        </div> */}
+        {/* this is the link to sign in */}
+        <a href="/"> 
+        <div className={styles['getstartedbuttonEdit']}>
+          <p className={styles['text']}>Getting Started</p>
+        </div>
+        </a>
         <span className={styles['text002']}>
           <span>About</span>
         </span>
@@ -25,20 +33,16 @@ function LandingPage() {
           <span>Home</span>
         </span>
         <span className={styles['text008']}>
-          <span>Stratus API</span>
+          <p>Stratus API</p>
         </span>
         <span className={styles['text010']}>
-          <span>By Cloud at Cal</span>
+          <p>By Cloud at Cal</p>
         </span>
         <span className={styles['text012']}>
-          <span>
-            <span>
+            <p>
               Train, fine-tune, and deploy machine learning in the cloud with a
               single API
-            </span>
-            <br></br>
-            <span></span>
-          </span>
+            </p>
         </span>
         <span className={styles['text017']}>
           <span>
@@ -160,11 +164,12 @@ function LandingPage() {
             <span></span>
           </span>
         </span>
-        <img
+        {/* <img
           src='../assets/images/vector.svg'
           alt="Vector120"
           className={styles['vector']}
-        />
+        /> */}
+        <BsIcons.BsCloudFill/>
         <span className={styles['text062']}>
           <span>Cloud at Cal</span>
         </span>
